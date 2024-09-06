@@ -25,8 +25,8 @@ The following technologies and libraries were used in this project:
 
 This project was completed over a period of **2 weeks**, including the following phases:
 
-- **Week 1**: Data exploration, cleaning, and transformation.
-- **Week 2**: Data analysis, visualization, and documentation.
+- **Day 1**: Data exploration, cleaning, and transformation.
+- **Day 2**: Data analysis, visualization, and documentation/presentation.
 
 ## Project Structure
 
