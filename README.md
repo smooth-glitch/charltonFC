@@ -32,7 +32,7 @@ This project was completed over a period of **2 weeks**, including the following
 
 The project is organized as follows:
 
-![Alt Text]([https://example.com/path-to-your-image.jpg](https://teal-tracey-53.tiiny.site/Football-Recruitment-Analysis-route.png))
+![Image not available]([https://example.com/path-to-your-image.jpg](https://teal-tracey-53.tiiny.site/Football-Recruitment-Analysis-route.png))
 
 ## Setup Instructions
 
