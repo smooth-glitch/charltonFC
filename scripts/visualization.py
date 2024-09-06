@@ -12,11 +12,10 @@ def plot_play_duration_vs_match_share(data):
     plt.ylabel('Match Share (standardized)')
     plt.show()
 
-def plot_distribution_of_combined_score(data):
-    """Plot the distribution of Combined Score."""
-    plt.figure(figsize=(10, 6))
-    sns.histplot(data['combined_score'], bins=50, kde=True)
-    plt.title('Distribution of Combined Score')
-    plt.xlabel('Combined Score')
+def plot_distribution_of_score(data, score_column):
+    """Plot the distribution of any score column with a KDE."""
+    sns.histplot(data[score_column], bins=50, kde=True)
+    plt.title(f'Distribution of {score_column.capitalize()}')
+    plt.xlabel(score_column.capitalize())
     plt.ylabel('Frequency')
     plt.show()
