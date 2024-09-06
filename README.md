@@ -32,7 +32,17 @@ This project was completed over a period of **2 weeks**, including the following
 
 The project is organized as follows:
 
-DataScientistInternTask/ │ ├── data/ # Directory for storing data files │ └── DataScientistInternTask.csv # Original dataset │ ├── src/ # Source code directory │ ├── init.py # Initializes the package │ ├── data_preprocessing.py # Functions for data cleaning and preparation │ ├── analysis.py # Functions for data analysis │ └── visualization.py # Functions for data visualization │ ├── main.py # Main script to run the analysis ├── requirements.txt # List of dependencies └── README.md # Project documentation
+project_root/
+│
+├── scripts/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── analysis.py
+│   └── visualization.py
+│
+├── main.py
+└── requirements.txt
+
 
 ## Setup Instructions
 
