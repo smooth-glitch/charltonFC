@@ -49,13 +49,16 @@ To set up this project on your local system, follow these steps:
    python -m venv venv
 
 3. **Activate the Virtual Environment**:
-Windows:
-   ```bash
-      venv\Scripts\activate
 
-macOS/Linux:
+   macOS/Linux:
    ```bash
       source venv/bin/activate
+   
+  Windows:
+   '''bash
+      venv\Scripts\activate
+
+   
    
 4. **Install Dependencies**:
    ```bash
@@ -65,17 +68,17 @@ macOS/Linux:
    ```bash
       python main.py
 
-Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ directory.
+### Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ directory.
 
-**Dataset**
+6. **Dataset**
 Due to the large size of the dataset, it is not included in this repository. You can download it from Google Drive. Place the file in the data/ directory to run the analysis.
 this is the G-drive link for the dataset : https://drive.google.com/file/d/1kb0ivHsLaKdVb1jZkwyuIYYzQewu0dmn/view?usp=drive_link
 
-**Contribution**
+7. **Contribution**
 If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to include a description of the changes and any relevant details.
 
-**License**
+8. **License**
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-**Contact**
+9. **Contact**
 For any questions or feedback, feel free to reach out to your-email@example.com.
