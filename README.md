@@ -49,36 +49,33 @@ To set up this project on your local system, follow these steps:
    python -m venv venv
 
 3. **Activate the Virtual Environment**:
-
-   macOS/Linux:
-   ```bash
-      source venv/bin/activate
    
-  Windows:
-   '''bash
-      venv\Scripts\activate
-
+	  ```bash
+   		venv\Scripts\activate\
    
-   
-4. **Install Dependencies**:
+5. **Install Dependencies**:
    ```bash
       pip install -r requirements.txt
 
-5. **Run the Main Script**:
+6. **Run the Main Script**:
    ```bash
       python main.py
 
 ### Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ directory.
 
 6. **Dataset**
-Due to the large size of the dataset, it is not included in this repository. You can download it from Google Drive. Place the file in the data/ directory to run the analysis.
-this is the G-drive link for the dataset : https://drive.google.com/file/d/1kb0ivHsLaKdVb1jZkwyuIYYzQewu0dmn/view?usp=drive_link
+   
+   Due to the large size of the dataset, it is not included in this repository. You can download it from Google Drive. Place the file in the data/ directory to run the analysis.
+   this is the G-drive link for the dataset : https://drive.google.com/file/d/1kb0ivHsLaKdVb1jZkwyuIYYzQewu0dmn/view?usp=drive_link
 
-7. **Contribution**
-If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to include a description of the changes and any relevant details.
+8. **Contribution**
+   
+   If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to include a description of the changes and any relevant details.
 
-8. **License**
-This project is licensed under the MIT License. See the LICENSE file for more details.
+10. **License**
+    
+   This project is licensed under the MIT License. See the LICENSE file for more details.
 
-9. **Contact**
-For any questions or feedback, feel free to reach out to your-email@example.com.
+12. **Contact**
+    
+   For any questions or feedback, feel free to reach out to your-email@example.com.
