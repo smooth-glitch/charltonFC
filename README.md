@@ -26,7 +26,11 @@ The following technologies and libraries were used in this project:
 This project was completed over a period of 6 days, including the following phases:
 
 - **Day 1**: Data exploration, cleaning, and transformation.
-- **Day 2**: Data analysis, visualization, and documentation/presentation.
+- **Day 2**: Data analysis, and visualization using matplotlib.
+- **Day 3**: visualization enhancement using Tableau -> from matplotlib to tableau.
+- **Day 4**: thorough documentation and creation of a detailed presentation.
+- **Day 5**: code review and potential enhancements for the processing of the dataset.
+- **Day 6**: Submission and presentation to the firm.
 
 ## Project Structure
 
