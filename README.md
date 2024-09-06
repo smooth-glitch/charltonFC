@@ -42,25 +42,28 @@ To set up this project on your local system, follow these steps:
 
    ```bash
    https://github.com/smooth-glitch/charltonFC.git
-   cd DataScientistInternTask
-2.**Create a Virtual Environment**:
-  python -m venv venv
-  
-3.**Activate the Virtual Environment**:
+   cd charltonFC
+   
+2. **Create a Virtual Environment**:
+   ```bash
+   python -m venv venv
 
-    Windows:
-        venv\Scripts\activate
+3. **Activate the Virtual Environment**:
+Windows:
+   ```bash
+      venv\Scripts\activate
 
-    macOS/Linux:
-        source venv/bin/activate
+macOS/Linux:
+   ```bash
+      source venv/bin/activate
+   
+4. **Install Dependencies**:
+   ```bash
+      pip install -r requirements.txt
 
-
-4.**Install Dependencies**:
-    pip install -r requirements.txt
-
-
-5.**Run the Main Script**:
-    python main.py
+5. **Run the Main Script**:
+   ```bash
+      python main.py
 
 Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ directory.
 
