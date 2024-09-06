@@ -1,4 +1,4 @@
-# Data Scientist Intern Task
+# Data Scientist Intern Task:1
 
 Welcome to the Data Scientist Intern Task repository! This project demonstrates data analysis and visualization using Python. Below you'll find an overview of the project, the tech stack used, and instructions on how to set it up and run it on your local system.
 
