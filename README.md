@@ -63,19 +63,19 @@ To set up this project on your local system, follow these steps:
 
 Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ directory.
 
-7. **Dataset**
-   
-   	Due to the large size of the dataset, it is not included in this repository. You can download it from Google Drive. Place the file in the data/ directory to run the analysis.
-   	this is the G-drive link for the dataset : https://drive.google.com/file/d/1kb0ivHsLaKdVb1jZkwyuIYYzQewu0dmn/view?usp=drive_link
+### Dataset
 
-8. **Contribution**
-   
+	Due to the large size of the dataset, it is not included in this repository. You can download it from Google Drive. Place the file in the data/ directory to run the analysis.
+	this is the G-drive link for the dataset : https://drive.google.com/file/d/1kb0ivHsLaKdVb1jZkwyuIYYzQewu0dmn/view?usp=drive_link
+
+### Contribution
+
    	If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to include a description of the changes and any relevant details.
 
-9. **License**
+### License
     
    	This project is licensed under the MIT License. See the LICENSE file for more details.
 
-10. **Contact**
+### Contact
     
    	For any questions or feedback, feel free to reach out to arjunsridhar445@gmail.com.
