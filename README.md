@@ -30,9 +30,9 @@ This project was completed over a period of **2 weeks**, including the following
 
 ## Project Structure
 
-The project is organized as follows:
+The project folder structure is available here:
 
-![Image not available]([https://example.com/path-to-your-image.jpg](https://teal-tracey-53.tiiny.site/Football-Recruitment-Analysis-route.png))
+https://freeimage.host/i/dv4gT12
 
 ## Setup Instructions
 
