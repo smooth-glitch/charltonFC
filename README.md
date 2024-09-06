@@ -41,7 +41,7 @@ To set up this project on your local system, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/DataScientistInternTask.git
+   https://github.com/smooth-glitch/charltonFC.git
    cd DataScientistInternTask
 2.**Create a Virtual Environment**:
   python -m venv venv
