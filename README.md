@@ -32,17 +32,7 @@ This project was completed over a period of **2 weeks**, including the following
 
 The project is organized as follows:
 
-project_root/
-│
-├── scripts/
-│   ├── __init__.py
-│   ├── data_preprocessing.py
-│   ├── analysis.py
-│   └── visualization.py
-│
-├── main.py
-└── requirements.txt
-
+![Alt Text]([https://example.com/path-to-your-image.jpg](https://teal-tracey-53.tiiny.site/Football-Recruitment-Analysis-route.png))
 
 ## Setup Instructions
 
