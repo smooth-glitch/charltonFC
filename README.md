@@ -23,7 +23,7 @@ The following technologies and libraries were used in this project:
 
 ## Timeframe
 
-This project was completed over a period of **2 weeks**, including the following phases:
+This project was completed over a period of 6 days, including the following phases:
 
 - **Day 1**: Data exploration, cleaning, and transformation.
 - **Day 2**: Data analysis, visualization, and documentation/presentation.
