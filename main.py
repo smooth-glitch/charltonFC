@@ -1,6 +1,6 @@
 from scripts import (
     load_data, standardize_column_names, ensure_unique_column_names,
-    preprocess_data, scale_data, apply_all_scores, create_ultimate_score, get_top_players,
+    preprocess_data, scale_data, apply_all_scores, create_ultimate_score, create_ai_based_score, get_top_players,
     plot_play_duration_vs_match_share, plot_distribution_of_score
 )
 
@@ -27,7 +27,8 @@ weights = {
     'z_score_combined': 0.15,
     'pca_score': 0.1,
     'harmonic_mean_score': 0.1,
-    'custom_score': 0.1
+    'custom_score': 0.1,
+    'ai_score': 0.2
 }
 
 # Apply all scoring methods to the dataset
@@ -52,7 +53,8 @@ print_top_players(data, 'pca_score')
 print_top_players(data, 'harmonic_mean_score')
 print_top_players(data, 'custom_score')
 print_top_players(data, 'ultimate_score')
+print_top_players(data, 'ai_score')
 
 # Visualizations
 plot_play_duration_vs_match_share(data)
-plot_distribution_of_score(data, 'ultimate_score')
+plot_distribution_of_score(data, 'ai_score')
