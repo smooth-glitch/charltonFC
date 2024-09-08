@@ -40,8 +40,10 @@ def scale_data(data, columns):
     return data
 
 # Scoring Methods
-def create_combined_scores(data, col1, col2, weight1=0.6, weight2=0.4):
+def create_combined_scores(data, col1, col2, weight1=0.4, weight2=0.6):
     """Apply all scoring methods."""
+    data[col1] = data[col1].apply(lambda x: max(x, 1e-5))
+    data[col2] = data[col2].apply(lambda x: max(x, 1e-5))
     data['simple_sum_score'] = data[col1] + data[col2]
     data['weighted_score'] = (data[col1] * weight1) + (data[col2] * weight2)
     data['geometric_mean_score'] = np.sqrt(data[col1] * data[col2])
@@ -51,7 +53,6 @@ def create_combined_scores(data, col1, col2, weight1=0.6, weight2=0.4):
     )
     data = create_pca_combined_score(data, [col1, col2])
     data['harmonic_mean_score'] = 2 / ((1 / data[col1]) + (1 / data[col2]))
-    data['custom_score'] = create_custom_metric(data, col1, col2)
     return data
 
 def create_pca_combined_score(data, cols):
@@ -60,29 +61,30 @@ def create_pca_combined_score(data, cols):
     data['pca_score'] = pca.fit_transform(data[cols])
     return data
 
-def create_custom_metric(data, col1, col2):
-    """Custom combined score with bonuses."""
-    custom_score = data[col1] + data[col2]
-    custom_score += np.where(data[col1] > 1.5, 0.2, 0)  # Bonus for high playduration
-    custom_score += np.where(data[col2] > 1.5, 0.2, 0)  # Bonus for high matchshare
-    return custom_score
-
 def apply_all_scores(data: pd.DataFrame, col1: str, col2: str, weight1: float = 0.6, weight2: float = 0.4):
     """Apply all scoring methods and add them as new columns."""
     data = create_combined_scores(data, col1, col2, weight1, weight2)
     data = create_ai_based_score(data, col1, col2)
     return data
 
-def create_ai_based_score(data, col1, col2, model_type='kmeans'):
-    """Create AI-based score using KMeans or RandomForest."""
+def create_ai_based_score(data, col1, col2, model_type='random_forest'):
+    """Create AI-based score using RandomForest or KMeans."""
     if model_type == 'kmeans':
         kmeans = KMeans(n_clusters=3, random_state=42)
         data['ai_score'] = kmeans.fit_predict(data[[col1, col2]])
+    
     elif model_type == 'random_forest':
-        X, y = data[[col1, col2]], data['performance_metric']
+        # If 'performance_metric' is not available, create a proxy metric
+        # Here we use a simple average of the two features as a target
+        data['performance_metric'] = data[[col1, col2]].mean(axis=1)
+        X = data[[col1, col2]]
+        y = data['performance_metric']
         model = RandomForestRegressor(random_state=42)
         model.fit(X, y)
         data['ai_score'] = model.predict(X)
+        # Optionally remove the proxy metric after prediction
+        data.drop(columns=['performance_metric'], inplace=True)
+    
     return data
 
 def prepare_data_for_model(data):
@@ -112,7 +114,7 @@ def train_ai_model(data):
 def create_ultimate_score(data, weights):
     """Combine all scores into one ultimate score."""
     required_columns = ['simple_sum_score', 'weighted_score', 'geometric_mean_score',
-                        'z_score_combined', 'pca_score', 'harmonic_mean_score', 'custom_score', 'ai_score']
+                        'z_score_combined', 'pca_score', 'harmonic_mean_score', 'ai_score']
     for col in required_columns:
         if col not in data.columns:
             raise ValueError(f"Required column '{col}' is missing from data")
