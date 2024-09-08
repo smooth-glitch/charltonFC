@@ -17,9 +17,10 @@ The following technologies and libraries were used in this project:
 
 - **Python**: Programming language used for data analysis and scripting.
 - **Pandas**: Data manipulation and analysis.
-- **Matplotlib**: Plotting and visualization.
+- **Matplotlib**: Debug plotting and visualization.
 - **Seaborn**: Statistical data visualization.
 - **Scikit-Learn**: Standardization and proceesing of data using AI algorithms.
+- **Tableau**: Data plots and visualization.
 
 ## Timeframe
 
