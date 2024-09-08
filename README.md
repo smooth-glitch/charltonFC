@@ -85,3 +85,6 @@ Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ di
 ### Contact
     
    For any questions or feedback, feel free to reach out to arjunsridhar445@gmail.com.
+   
+###💰You can help me by Donating
+BuyMeACoffee
