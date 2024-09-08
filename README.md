@@ -11,16 +11,8 @@ The goal of this project was to analyze a dataset containing player statistics. 
 - **Analysis**: Identifying top performers based on a combined score of multiple metrics.
 - **Visualization**: Generating visualizations to better understand the data.
 
-## Tech Stack
-
-The following technologies and libraries were used in this project:
-
-- **Python**: Programming language used for data analysis and scripting.
-- **Pandas**: Data manipulation and analysis.
-- **Matplotlib**: Debug plotting and visualization.
-- **Seaborn**: Statistical data visualization.
-- **Scikit-Learn**: Standardization and proceesing of data using AI algorithms.
-- **Tableau**: Data plots and visualization.
+## 💻 Tech Stack:
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
 ## Timeframe
 
@@ -86,5 +78,8 @@ Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ di
     
    For any questions or feedback, feel free to reach out to arjunsridhar445@gmail.com.
    
-###💰You can help me by Donating
-BuyMeACoffee
+### 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/smoothglitch) 
+
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
