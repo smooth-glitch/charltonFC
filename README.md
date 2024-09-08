@@ -19,7 +19,7 @@ The following technologies and libraries were used in this project:
 - **Pandas**: Data manipulation and analysis.
 - **Matplotlib**: Plotting and visualization.
 - **Seaborn**: Statistical data visualization.
-- **Scikit-Learn**: Standardization of data.
+- **Scikit-Learn**: Standardization and proceesing of data using AI algorithms.
 
 ## Timeframe
 
