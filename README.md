@@ -67,6 +67,8 @@ Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ di
    
    NOTE: YOU WILL NEED ACCESS PERMISSIONS FOR THIS.
 
+### Tableau plot glimpse:
+	(https://github.com/smooth-glitch/charltonFC/sample_output.png)
 ### Contribution
 
    If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to include a description of the changes and any relevant details.
