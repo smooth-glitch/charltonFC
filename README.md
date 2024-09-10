@@ -70,6 +70,9 @@ Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ di
 ### Tableau dashboard glimpse:
 ![Diagram](https://github.com/smooth-glitch/charltonFC/blob/main/sample_output.png)
 
+### Presentation:
+[View the presentation](https://github.com/username/repo/raw/main/path/to/yourfile.pdf)
+
 ### Contribution
 
    If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to include a description of the changes and any relevant details.
