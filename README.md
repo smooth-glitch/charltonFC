@@ -49,7 +49,8 @@ To set up this project on your local system, follow these steps:
 3. **Activate the Virtual Environment**:
    
 	  ```bash
-   		venv\Scripts\activate\
+   		cd venv
+   		./scripts/activate
    
 5. **Install Dependencies**:
    ```bash
