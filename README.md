@@ -71,7 +71,7 @@ Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ di
 ![Diagram](https://github.com/smooth-glitch/charltonFC/blob/main/sample_output.png)
 
 ### Presentation:
-[View My presentation]([https://github.com/smooth-glitch/charltonFC/blob/main/charltonFC.pdf])
+[View My Presentation](https://github.com/smooth-glitch/charltonFC/raw/main/charltonFC.pdf)
 
 ### Contribution
 
