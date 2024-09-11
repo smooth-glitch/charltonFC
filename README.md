@@ -1,4 +1,4 @@
-# 🎯 Data Scientist Intern Entry Task:
+# 🎯 Data Scientist Intern Entry Task
 
 Welcome to the Data Scientist Intern Task repository! This project demonstrates data analysis and visualization using Python. Below you'll find an overview of the project, the tech stack used, and instructions on how to set it up and run it on your local system.
 
@@ -13,7 +13,7 @@ The goal of this project was to analyze a dataset containing player statistics. 
 - **Machine Learning**: Using AI algorithms like Random Forest and K-Means to generate scores based on player performance.
 
 
-## 💻 Tech Stack:
+## 💻 Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![OpenSea](https://img.shields.io/badge/OpenSea-%232081E2.svg?style=for-the-badge&logo=opensea&logoColor=white)
 
 ## 🤖 Machine Learning Algorithms
@@ -68,27 +68,27 @@ https://freeimage.host/i/dv4gT12
 
 To set up this project on your local system, follow these steps:
 
-1. **Clone the Repository**:
+1. **Clone the Repository**
 
    ```bash
    https://github.com/smooth-glitch/charltonFC.git
    cd charltonFC
    
-2. **Create a Virtual Environment**:
+2. **Create a Virtual Environment**
    ```bash
    python -m venv venv
 
-3. **Activate the Virtual Environment**:
+3. **Activate the Virtual Environment**
    
 	  ```bash
    		cd venv
    		./scripts/activate
    
-5. **Install Dependencies**:
+5. **Install Dependencies**
    ```bash
       pip install -r requirements.txt
 
-6. **Run the Main Script**:
+6. **Run the Main Script**
    ```bash
       python main.py
 
@@ -100,10 +100,10 @@ Ensure that the dataset (DataScientistInternTask.csv) is located in the data/ di
    
    NOTE: YOU WILL NEED ACCESS PERMISSIONS FOR THIS.
 
-### 📊 Tableau dashboard glimpse:
+### 📊 Tableau dashboard glimpse
 ![Diagram](https://github.com/smooth-glitch/charltonFC/blob/main/sample_output.png)
 
-### 🎤 Presentation:
+### 🎤 Presentation
 [VIEW THE PRESENTATION](https://github.com/smooth-glitch/charltonFC/raw/main/charltonFC.pdf)
 
 ### 🤝 Contribution
