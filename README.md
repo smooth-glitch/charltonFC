@@ -62,7 +62,7 @@ This project was completed over a period of 6 days, including the following phas
 
 The project folder structure is available here:
 
-https://freeimage.host/i/dv4gT12
+![Diagram](https://github.com/smooth-glitch/charltonFC/blob/main/project_structure.png)
 
 ## ⚙️ Setup Instructions
 
