@@ -17,18 +17,19 @@ The goal of this project was to analyze a dataset containing player statistics. 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![OpenSea](https://img.shields.io/badge/OpenSea-%232081E2.svg?style=for-the-badge&logo=opensea&logoColor=white)
 
 ## Machine Learning Algorithms
-1. Random Forest 🌲
-Random Forest is a supervised learning algorithm used for both classification and regression tasks. It works by constructing multiple decision trees during training and outputs either the average prediction (for regression tasks) or the majority vote (for classification tasks) of the individual trees.
 
-Key Characteristics:
-It reduces the risk of overfitting by averaging the results of multiple trees.
-Randomly selects data points and features to train each tree, ensuring variety and reducing correlation between trees.
-Can estimate the importance of each feature in making predictions.
-In this project, a Random Forest Regressor is used to generate a new AI-based score based on two columns (col1 and col2). The function:
+# Random Forest 🌲
+	Random Forest is a supervised learning algorithm used for both classification and regression tasks. It works by constructing multiple decision trees during training and outputs either the average prediction (for regression tasks) or the majority vote (for classification tasks) of the individual trees.
 
-Trains the Random Forest on the average of the two columns.
-Predicts an AI score that combines the two features in a data-driven manner.
-The function also uses Random Forest to train a model that determines optimal weights for various performance metrics, which helps to predict the final score for a player.
+	Key Characteristics:
+	It reduces the risk of overfitting by averaging the results of multiple trees.
+	Randomly selects data points and features to train each tree, ensuring variety and reducing correlation between trees.
+	Can estimate the importance of each feature in making predictions.
+	In this project, a Random Forest Regressor is used to generate a new AI-based score based on two columns (col1 and col2). The function:
+
+	Trains the Random Forest on the average of the two columns.
+	Predicts an AI score that combines the two features in a data-driven manner.
+	The function also uses Random Forest to train a model that determines optimal weights for various performance metrics, which helps to predict the final score for a player.
 
 2. K-Means Clustering 🔍
 K-Means is an unsupervised learning algorithm used for clustering. The goal is to partition the data into K clusters based on the similarity of data points, such that data points within the same cluster are more similar to each other than to those in other clusters.
