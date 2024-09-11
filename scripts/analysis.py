@@ -2,7 +2,7 @@
 
 def get_best_players_by_position(data, score_column='ultimate_score'):
     """
-    Get the top 3 players from each specific position category.
+    Gets the top 3 players from each specific position category.
     
     Args:
         data (pd.DataFrame): The dataset containing player information.

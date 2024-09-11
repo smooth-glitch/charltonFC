@@ -10,6 +10,7 @@ The goal of this project was to analyze a dataset containing player statistics. 
 - **Data Transformation**: Normalizing data and creating new metrics.
 - **Analysis**: Identifying top performers based on a combined score of multiple metrics.
 - **Visualization**: Generating visualizations to better understand the data.
+- **Machine Learning**: Using AI algorithms like Random Forest and K-Means to generate scores based on player performance.
 
 
 ## 💻 Tech Stack:
