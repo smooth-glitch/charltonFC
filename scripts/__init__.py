@@ -1,7 +1,7 @@
 # scripts/__init__.py
 
 """
-This is the data science task package.
+This is the package for the main function.
 
 Modules:
 - data_preprocessing: Functions for loading and preprocessing data.
